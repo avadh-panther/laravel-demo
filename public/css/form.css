@@ -1,0 +1,304 @@
+#main-div {
+    display: flex;
+    width: 68%;
+    padding: 0% 15%;
+}
+
+.column {
+    width: 50%;
+}
+
+.head {
+    margin: 0% 15.5%;
+}
+
+.head button {
+    padding: 10px;
+    background-color: white;
+    border: 1px solid rgb(184, 183, 183);
+    border-radius: 4px;
+}
+
+.head h2 {
+    display: inline;
+    margin: 5px 10px;
+}
+
+#form1 {
+    padding: 15px;
+    background-color: white;
+    border-radius: 6px;
+    margin: 20px 10px;
+    box-shadow: 0px 0px 4px -1px rgb(165, 155, 155);
+}
+
+#form1 input,
+#form1 textarea {
+    border: 1px solid rgb(184, 183, 183);
+    border-radius: 4px;
+    margin-top: 5px;
+    width: 95%;
+    padding: 10px;
+    outline-color: lightblue;
+}
+
+#form2 {
+    padding: 15px;
+    background-color: white;
+    border-radius: 6px;
+    margin: 20px 10px;
+    box-shadow: 0px 0px 4px -1px rgb(165, 155, 155);
+}
+
+#form2 > p:nth-child(2) {
+    margin: 18px 0px;
+    cursor: pointer;
+}
+
+#schedule {
+    padding: 0px 0px 10px 18px;
+    display: none;
+}
+
+#form2 input {
+    margin: 10px 0px;
+}
+
+#form3 {
+    padding: 1px 15px 15px 15px;
+    background-color: white;
+    border-radius: 6px;
+    margin: 20px 10px;
+    box-shadow: 0px 0px 4px -1px rgb(165, 155, 155);
+}
+
+.value {
+    margin: 10px 0px;
+    border: 1px solid rgb(220, 211, 211);
+    border-radius: 5px;
+    width: 100%;
+    display: flex;
+}
+
+.price-margin {
+    display: grid;
+    grid-template-columns: auto auto;
+    align-content: center;
+    text-align: left;
+    margin-left: 10px;
+}
+
+.calculation-container {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.pricing-container {
+    /* column-count: 2; */
+    display: flex;
+    column-gap: 15px;
+}
+
+.value:focus {
+    border-color: black;
+}
+
+.value input {
+    border: hidden;
+    background-color: transparent;
+    outline: none;
+    width: 100%;
+}
+
+.value i {
+    padding: 7px;
+    color: rgb(71, 68, 68);
+}
+
+rt {
+    font-size: 16px;
+    padding: 3px 5px;
+}
+
+#form3 > p {
+    font-weight: bold;
+    font-size: 20px;
+    margin: 15px 0px;
+}
+
+#form4 {
+    padding: 1px 15px 15px 15px;
+    background-color: white;
+    border-radius: 6px;
+    margin: 20px 10px;
+    box-shadow: 0px 0px 4px -1px rgb(165, 155, 155);
+}
+
+#asds option {
+    width: 100%;
+}
+
+#asds {
+    width: 100%;
+}
+
+.form-head {
+    font-weight: bold;
+    font-size: 20px;
+    margin: 18px 0px;
+}
+
+#tag {
+    position: relative;
+}
+
+#tag-input {
+    width: 97%;
+    padding: 6px;
+    margin-top: 7px;
+}
+
+#dropdown {
+    background-color: rgb(248, 247, 247);
+    border: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 0px 4px -1px rgb(165, 155, 155);
+    padding: 5px 15px;
+    position: absolute;
+    top: 38px;
+    width: 94%;
+    z-index: 1;
+    display: none;
+}
+
+#dropdown > p {
+    padding: 8px 0px;
+}
+
+input.drop-check {
+    margin-right: 5px;
+}
+
+.tag_val {
+    border-radius: 5px;
+    padding: 5px 10px;
+    display: inline-block;
+    margin: 5px 5px 0px 5px;
+    background-color: rgba(68, 62, 62, 0.856);
+    color: white;
+}
+
+/* #display-tag span button {
+    background-color: transparent;
+    border: hidden;
+    color: white;
+} */
+
+.dropdown1 {
+    background-color: rgb(248, 247, 247);
+    border: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 0px 4px -1px rgb(165, 155, 155);
+    padding: 5px 15px;
+    position: absolute;
+    top: 38px;
+    width: 94%;
+    z-index: 1;
+    display: none;
+}
+
+.dropdown1 > p {
+    padding: 8px 0px;
+    cursor: pointer;
+}
+
+.input-vendor {
+    width: 97%;
+    padding: 6px;
+    margin-top: 7px;
+}
+
+.vendor {
+    position: relative;
+}
+
+#add-btn {
+    padding: 10px 5px;
+    display: none;
+}
+
+#addDrop {
+    padding: 10px 5px;
+    display: none;
+}
+
+#popCalendar {
+    position: absolute;
+    left: 30%;
+    top: 30%;
+    background-color: white;
+    border: hidden;
+    border-radius: 6px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    width: 33%;
+    padding: 10px;
+    height: 23em;
+}
+
+#popCalendar input {
+    width: 48%;
+}
+
+#popCalendar button {
+    margin-top: 15px;
+}
+
+#bgCalendar {
+    position: absolute;
+    position: fixed;
+    visibility: hidden;
+    left: 0px;
+    top: 0px;
+    background-color: rgba(182, 182, 182, 0.508);
+    width: 100%;
+    height: 100vh;
+}
+
+#close {
+    float: right;
+    padding-right: 6px;
+}
+
+.formErr {
+    color: red;
+}
+
+.success {
+    background-color: #d1e7dd;
+    color: #0f5132;
+    border: 2px solid #0f5132;
+    border-radius: 4px;
+    padding: 10px;
+    width: 65%;
+    margin-left: 15.5%;
+}
+
+.fail {
+    color: #842029;
+    background-color: #f8d7da;
+    border: 2px solid #842029;
+    border-radius: 4px;
+    padding: 10px;
+    width: 65%;
+    margin-left: 15.5%;
+}
+
+#submit_pro {
+    border: hidden;
+    background-color: #8eb68e;
+    padding: 7px 10px;
+    border-radius: 4px;
+    border: 1px solid darkgreen;
+    margin: 10px;
+    font-size: 15px;
+}
