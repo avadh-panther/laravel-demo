@@ -1,0 +1,259 @@
+* {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+body {
+    background-color: rgb(238, 237, 237);
+}
+
+form {
+    padding: 15px;
+    background-color: white;
+    border-radius: 6px;
+    margin: 20px 25%;
+    box-shadow: 0px 0px 4px -1px rgb(165, 155, 155);
+}
+
+.formErr {
+    color: red;
+}
+
+.field {
+    width: 98%;
+    margin-top: 5px;
+    padding: 5px;
+}
+
+.head {
+    display: flex;
+    margin: 20px 25%;
+}
+
+.head a {
+    font-size: 32px;
+    color: black;
+    margin-right: 10px;
+}
+
+.button {
+    padding: 8px 10px;
+    background-color: rgb(58 197 94);
+    color: white;
+    border-radius: 4px;
+    margin-right: 15px;
+    align-self: center;
+}
+
+.button:hover {
+    background-color: #1cad1c;
+}
+
+.edit {
+    padding: 5px 8px;
+    background-color: rgb(136, 159, 230);
+    color: white;
+    border-radius: 4px;
+    margin-right: 8px;
+}
+
+.delete {
+    padding: 5px 8px;
+    background-color: rgb(230, 136, 136);
+    color: white;
+    border-radius: 4px;
+}
+
+.edit:hover {
+    background-color: rgb(68, 107, 224);
+}
+
+.delete:hover {
+    background-color: rgb(224, 60, 60);
+}
+
+.dashboard_head {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-between;
+    align-content: center;
+}
+
+input[type="submit"] {
+    background-color: #1cad1c;
+    border: hidden;
+    border-radius: 4px;
+    padding: 8px;
+    color: white;
+}
+
+.prev {
+    margin: 10px 0px;
+    padding: 10px;
+    background-color: white;
+    border: 1px solid rgb(220, 211, 211);
+    border-radius: 6px 0px 0px 6px;
+    text-decoration: none;
+    color: black;
+}
+
+.nxt {
+    margin: 10px 0px;
+    padding: 10px;
+    background-color: white;
+    border: 1px solid rgb(220, 211, 211);
+    border-radius: 0px 6px 6px 0px;
+    text-decoration: none;
+    color: black;
+}
+
+.pagination {
+    padding: 1.5% 0%;
+    border-top: 1px solid #d1d1d1;
+}
+
+/* ---------------------------------------------------Nav_bar-------------------------------------------------- */
+
+.nav1 {
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background-color: white;
+    box-shadow: 0px 0px 10px -4px rgb(165, 155, 155);
+    z-index: 1;
+}
+
+.nav-items {
+    display: flex;
+    width: 17%;
+    align-items: center;
+    margin: 10px;
+}
+
+.nav-items img {
+    width: 20%;
+    padding-right: 10px;
+}
+
+#nav-search {
+    background-color: rgb(238, 237, 237);
+    margin: 10px 22%;
+    border: 1px solid rgb(220, 211, 211);
+    border-radius: 5px;
+    width: 70%;
+}
+
+#nav-search input {
+    border: hidden;
+    background-color: transparent;
+    outline: none;
+    width: 100%;
+}
+
+#nav-search i {
+    padding: 0 8px;
+    color: rgb(71, 68, 68);
+}
+
+/* ---------------------------------------------------Side_bar-------------------------------------------------- */
+
+.side-bar {
+    padding-top: 3%;
+    position: relative;
+    position: fixed;
+    background-color: white;
+    width: 14%;
+    height: 100vh;
+    font-size: 17px;
+    overflow: scroll;
+}
+
+.side-bar > ul li {
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: 18% auto;
+    justify-content: left;
+    align-items: center;
+    padding-left: 5px;
+    cursor: pointer;
+}
+
+.side-bar ul li i {
+    padding: 10px;
+    justify-self: center;
+}
+
+.side-bar > ul {
+    padding-left: 0px;
+}
+
+.active {
+    background-color: rgb(136, 159, 230);
+}
+
+.side_opt:hover {
+    background-color: rgb(136, 159, 230);
+}
+
+/* ---------------------------------------------------All tables-------------------------------------------------- */
+
+.container {
+    border-radius: 6px;
+    box-shadow: 0px 0px 4px -1px rgb(165, 155, 155);
+    margin: 20px 0px;
+    background-color: white;
+    width: 99%;
+    text-align: center;
+}
+
+table {
+    width: 100%;
+    border-spacing: 0px;
+}
+
+th,
+td {
+    padding: 10px 5px;
+    margin: 5px 0px;
+}
+
+tr {
+    padding: 5px;
+}
+
+tbody > tr:hover {
+    background-color: rgb(230, 230, 230);
+}
+
+thead > tr {
+    box-shadow: 0px 1px 1px -1px;
+}
+/* ---------------------------------------------------Location-------------------------------------------------- */
+#parent {
+    position: relative;
+}
+
+#dropdown {
+    position: absolute;
+    top: 15px;
+    width: 100%;
+    border-radius: 6px;
+    box-shadow: 0px 0px 4px -1px rgb(165, 155, 155);
+    margin: 20px 0px;
+    background-color: white;
+    border-spacing: 0px;
+    display: none;
+}
+
+.info {
+    padding: 6px 10px;
+}
+
+.info:hover {
+    background-color: rgb(201, 201, 201);
+}
